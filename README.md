@@ -1,46 +1,44 @@
-🛒 Django Online Marketplace
+# Django Online Marketplace
 
-A beginner-friendly Django project where users can buy and sell items, send messages, manage listings, and explore a simple, functional online marketplace.
+A beginner-friendly Django project where users can buy and sell items, manage listings, and communicate through a built-in messaging system. This project introduces essential Django concepts in a practical, hands-on way.
 
-This project is designed to teach core Django concepts through practical, hands-on development.
+---
 
-🚀 Features
-🔐 User Authentication
+## Features
 
-User registration & login
+### User Authentication
+- User registration and login
+- Secure password handling
+- Personalized dashboard for each user
 
-Secure password handling
+### Messaging System
+- Direct conversations between buyers and sellers
+- View conversations and reply to messages
+- Basic notifications for new messages
 
-Personalized user dashboard
+### Item Dashboard
+- Create, update, and delete items
+- Upload and manage item images (via Pillow)
+- View item details and activity
 
-💬 Messaging System
+### Form Handling & Customization
+- Django ModelForms for item creation
+- Custom validation and clean layouts
 
-Direct conversations between buyers and sellers
+### Additional Features
+- Item categories
+- Search functionality
+- Permission checks to ensure ownership
 
-Send & receive messages
+---
 
-Notifications for new messages
+## Tech Stack
 
-📦 Item Dashboard
+- Python 3.x  
+- Django 4.x / 5.x  
+- SQLite (default database)
+- HTML, CSS, Bootstrap  
+- Pillow for image handling  
 
-Create, edit, and delete listed items
+### Requirements (requirements.txt)
 
-Upload item images (via Pillow)
-
-Manage item details and status
-
-📝 Form Handling & Customization
-
-Django ModelForms for item creation
-
-Custom form validation
-
-Clean, user-friendly form layouts
-
-➕ Additional Features
-
-Category-based item browsing
-
-Search functionality
-
-Basic permission checks (e.g., only owners can edit/delete)
